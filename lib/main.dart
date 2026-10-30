@@ -1,5 +1,5 @@
-
 import 'package:flutter/material.dart';
+import 'screens/tests_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,14 +19,7 @@ class MyApp extends StatelessWidget {
           seedColor: Colors.blue,
         ),
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('StockFacile'),
-        ),
-        body: const Center(
-          child: Text('Bienvenue dans StockFacile !'),
-        ),
-      ),
+      home: const TestsScreen(),
     );
   }
 }
